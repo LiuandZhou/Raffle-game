@@ -13,4 +13,6 @@
 
 *Game2.0*
 =
-增加了pandas库，使用pandas对一些数据进行记录，将游戏数据保存到一个csv文本中。
+1.增加了pandas库，使用pandas对一些数据进行记录，将游戏数据保存到一个csv文本中。
+
+2.使用opencv将Yasuo和Zed展示图片大小进行了调整
