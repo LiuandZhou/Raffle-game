@@ -7,7 +7,7 @@ from Painter import Painter
 from play import Game
 from PySide2.QtWidgets import QApplication, QMainWindow, QPushButton,QMessageBox
 
-root='.//Userinfo//userinfo.csv'
+root='.//Userinfo//userinfo1.csv'
 class Player():
     def __init__(self):
         df = pd.read_csv(root)
