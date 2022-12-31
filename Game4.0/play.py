@@ -17,7 +17,7 @@ class Game():
         self.PC_GROW = 0.095
         self.hero = Hero()
         '''以上为常量'''
-        self.root = './Userinfo/userinfo.csv'
+        self.root = './Userinfo/userinfo1.csv'
         self.df = pd.read_csv(self.root)
         self.money = money
         self.y = list(self.df['y'])
