@@ -10,7 +10,7 @@ from PySide2.QtWidgets import QApplication, QMainWindow, QPushButton,QMessageBox
 
 class Player():
     def __init__(self):
-        self.root = './/Userinfo//userinfo.csv'
+        self.root = './/Userinfo//userinfo1.csv'
         df = pd.read_csv(self.root)
         self.money = list(df[0:1]['money'])#使用列表主要是可以传递地址让money可以改变自身
     def start(self):
