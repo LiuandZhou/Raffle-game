@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window</class>
+ <widget class="QWidget" name="window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1509</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>抽奖游戏</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#window{background-image:url(&quot;./Picture/Lulu.png&quot;)}</string>
+  </property>
+  <widget class="QPushButton" name="Button1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>760</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">Button1{background-color：rgba(255, 255, 255, 128)}</string>
+   </property>
+   <property name="text">
+    <string>16</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>750</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">Button2{background-color：rgba(255, 255, 255, 128)}</string>
+   </property>
+   <property name="text">
+    <string>160</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button3">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>750</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">Button3{background-color：rgba(255, 255, 255, 128)}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
